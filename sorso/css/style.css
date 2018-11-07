@@ -129,6 +129,7 @@ body{
 .main-header{
   background-color: #292724;
   color: #fff;
+  position: relative;
 }
 .main-header__container{
 display: -webkit-flex;
@@ -181,6 +182,8 @@ display: -webkit-flex;
   background-image: url(../img/header-bg.png);
   display: block;
   position: absolute;
+  top:100%;
+  background-repeat: repeat-x;
 }
 .section1__top{
   min-height: 570px;
@@ -726,8 +729,6 @@ a.blend__link{
   border-radius: 0;
   background:none;
   border: none;
-  
-
 }
 .panel{
   color:#ED5605;
@@ -963,10 +964,6 @@ a.politics{
   padding-top: 10px;
   padding-bottom: 5px;
 }
-.main-navbar:after{
-  margin-top: 5px;
-}
-
 .navbar-inverse .navbar-nav>li>a{
   color: #fff;
   font-size: 18px;
