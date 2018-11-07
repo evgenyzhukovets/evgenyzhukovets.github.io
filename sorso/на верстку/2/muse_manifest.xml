@@ -1,0 +1,173 @@
+<manifest alg="2" build="2015.0.2.310" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="b2b.sorso.by" resolutions="1x" timestamp="1455807548151">
+  <folder name="assets">
+    <file name="coffee-sorso-2016-feb.pdf" crc="4199382231" seo="true" mt="1455805941000"/>
+  </folder>
+  <folder name="css">
+    <file name="site_global.css" crc="3807361086"/>
+    <file name="index.css" crc="4294547857" ref="index"/>
+    <file name="thankyou.css" crc="3993867853" ref="thankyou"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="196614522" ref="index:thankyou"/>
+    <file name="museutils.js" crc="275725342" ref="index:thankyou"/>
+    <file name="jquery.watch.js" crc="3999102769" ref="index:thankyou"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="185257658" ref="index:thankyou"/>
+    <file name="pie.js" crc="3827607177" ref="index"/>
+    <file name="webpro.js" crc="3883484123" ref="index"/>
+    <file name="form_check.php" crc="3932029206" ref="index"/>
+    <file name="form_throttle.php" crc="314685628" ref="index"/>
+    <file name="form_process.php" crc="401030677" ref="index"/>
+    <file name="form-u2149.php" crc="4002824585" ref="index"/>
+    <file name="musewpslideshow.js" crc="360574455" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="342093292" ref="index"/>
+    <file name="touchswipe.js" crc="4218319045" ref="index"/>
+    <file name="form-u3428.php" crc="3835552487" ref="index"/>
+    <file name="jquery.scrolleffects.js" crc="206645848" ref="index"/>
+    <file name="form-u2379.php" crc="3935733808" ref="index"/>
+    <file name="form-u1963.php" crc="244782893" ref="index"/>
+    <file name="form-u2199.php" crc="3855002325" ref="index"/>
+    <file name="form-u2227.php" crc="4174067228" ref="index"/>
+    <file name="form-u2263.php" crc="3873327549" ref="index"/>
+    <file name="form-u3491.php" crc="21715562" ref="index"/>
+    <file name="form-u3467.php" crc="205905538" ref="index"/>
+    <file name="form-u3523.php" crc="475448144" ref="index"/>
+    <file name="form-u2305.php" crc="152582817" ref="index"/>
+    <file name="form-u2336.php" crc="3946107858" ref="index"/>
+    <file name="form-u3563.php" crc="3969649944" ref="index"/>
+    <file name="musewpdisclosure.js" crc="404074387" ref="index"/>
+    <file name="form-u3624.php" crc="3896897218" ref="index"/>
+    <file name="form-u3657.php" crc="4165180767" ref="index"/>
+    <file name="form-u1383.php" crc="470432363" ref="index"/>
+    <file name="form-u3738.php" crc="418783107" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="favicon.ico" crc="470453919" ref="index"/>
+    <file name="bg_main.jpg" crc="246250875" ref="index"/>
+    <file name="arrow-down-2-icon.png" crc="4026110698" seo="true" ref="index"/>
+    <file name="bg_menu.png" crc="15117384" ref="index"/>
+    <file name="logo1.png" crc="3870052375" seo="true" ref="index"/>
+    <file name="phone.png" crc="3932285116" ref="index"/>
+    <file name="u2161-17.png" crc="3922658166" ref="index"/>
+    <file name="u2161-17-r.png" crc="391820291" ref="index"/>
+    <file name="u2161-17-m.png" crc="391820291" ref="index"/>
+    <file name="u2161-17-fs.png" crc="3922658166" ref="index"/>
+    <file name="close_icon.png" crc="3810083272" seo="true" ref="index"/>
+    <file name="coffee.png" crc="4107161700" ref="index"/>
+    <file name="u3436-17.png" crc="405238879" ref="index"/>
+    <file name="u3436-17-r.png" crc="531934738" ref="index"/>
+    <file name="u3436-17-m.png" crc="531934738" ref="index"/>
+    <file name="u3436-17-fs.png" crc="4098067630" ref="index"/>
+    <file name="pic01.jpg" crc="4194677725" ref="index"/>
+    <file name="u2380-17.png" crc="510265567" ref="index"/>
+    <file name="u2380-17-r.png" crc="3868208241" ref="index"/>
+    <file name="u2380-17-m.png" crc="3868208241" ref="index"/>
+    <file name="u2380-17-fs.png" crc="510265567" ref="index"/>
+    <file name="blend1.jpg" crc="409927008" ref="index"/>
+    <file name="blend2.jpg" crc="3975928987" ref="index"/>
+    <file name="blend3.jpg" crc="3809080664" ref="index"/>
+    <file name="bg_02.jpg" crc="4290669766" ref="index"/>
+    <file name="u1981-17.png" crc="4288697772" ref="index"/>
+    <file name="u1981-17-r.png" crc="3993489226" ref="index"/>
+    <file name="u1981-17-m.png" crc="3993489226" ref="index"/>
+    <file name="u1981-17-fs.png" crc="4288697772" ref="index"/>
+    <file name="европейский банк развития и реконструкции.jpg" crc="3942044760" ref="index"/>
+    <file name="evo wellness club-u3240-fr.png" crc="4022391426" ref="index"/>
+    <file name="сильвер скрин.png" crc="228587551" ref="index"/>
+    <file name="теннисный клуб «wimc».jpg" crc="3765112245" ref="index"/>
+    <file name="хёндэ автоград.jpg" crc="423078032" ref="index"/>
+    <file name="кофейня кофемолл.jpg" crc="107769063" ref="index"/>
+    <file name="сеть кофеен youcoffee-u3235-fr.png" crc="4234404356" ref="index"/>
+    <file name="сеть кофеен youcoffee.jpg" crc="450007283" ref="index"/>
+    <file name="эспрессо бар 7-25.jpg" crc="43986054" ref="index"/>
+    <file name="кофейня barriicoffee.jpg" crc="60419928" ref="index"/>
+    <file name="сеть кофейн 9bar.png" crc="3837393639" ref="index"/>
+    <file name="ul1.png" crc="4071721088" ref="index"/>
+    <file name="ul2.png" crc="4044706700" ref="index"/>
+    <file name="advert_backgr.jpg" crc="4066832414" ref="index"/>
+    <file name="pr_1.png" crc="415837234" seo="true" ref="index"/>
+    <file name="pr_2.png" crc="458616320" seo="true" ref="index"/>
+    <file name="pr_3.png" crc="4156626504" seo="true" ref="index"/>
+    <file name="pr_4.png" crc="399335990" seo="true" ref="index"/>
+    <file name="pr_5.png" crc="225329121" seo="true" ref="index"/>
+    <file name="pr_6.png" crc="303191922" seo="true" ref="index"/>
+    <file name="u2200-17.png" crc="3922658166" ref="index"/>
+    <file name="u2200-17-r.png" crc="3974621296" ref="index"/>
+    <file name="u2200-17-m.png" crc="3974621296" ref="index"/>
+    <file name="u2200-17-fs.png" crc="3922658166" ref="index"/>
+    <file name="u2242-17.png" crc="3922658166" ref="index"/>
+    <file name="u2242-17-r.png" crc="3974621296" ref="index"/>
+    <file name="u2242-17-m.png" crc="3974621296" ref="index"/>
+    <file name="u2242-17-fs.png" crc="3922658166" ref="index"/>
+    <file name="u2273-17.png" crc="3922658166" ref="index"/>
+    <file name="u2273-17-r.png" crc="3974621296" ref="index"/>
+    <file name="u2273-17-m.png" crc="3974621296" ref="index"/>
+    <file name="u2273-17-fs.png" crc="3922658166" ref="index"/>
+    <file name="bl_01.jpg" crc="4283870461" ref="index"/>
+    <file name="bl_02.jpg" crc="260659050" ref="index"/>
+    <file name="bl_03.jpg" crc="174821388" ref="index"/>
+    <file name="u3496-17.png" crc="405238879" ref="index"/>
+    <file name="u3496-17-r.png" crc="531934738" ref="index"/>
+    <file name="u3496-17-m.png" crc="531934738" ref="index"/>
+    <file name="u3496-17-fs.png" crc="4098067630" ref="index"/>
+    <file name="u3483-17.png" crc="405238879" ref="index"/>
+    <file name="u3483-17-r.png" crc="531934738" ref="index"/>
+    <file name="u3483-17-m.png" crc="531934738" ref="index"/>
+    <file name="u3483-17-fs.png" crc="4098067630" ref="index"/>
+    <file name="u3528-17.png" crc="405238879" ref="index"/>
+    <file name="u3528-17-r.png" crc="531934738" ref="index"/>
+    <file name="u3528-17-m.png" crc="531934738" ref="index"/>
+    <file name="u3528-17-fs.png" crc="4098067630" ref="index"/>
+    <file name="u2306-17.png" crc="3922658166" ref="index"/>
+    <file name="u2306-17-r.png" crc="3974621296" ref="index"/>
+    <file name="u2306-17-m.png" crc="3974621296" ref="index"/>
+    <file name="u2306-17-fs.png" crc="3922658166" ref="index"/>
+    <file name="sorso_freeshipping2.jpg" crc="4209533492" ref="index"/>
+    <file name="pic02.png" crc="4279826999" ref="index"/>
+    <file name="u2344-17.png" crc="475542060" ref="index"/>
+    <file name="u2344-17-r.png" crc="421947386" ref="index"/>
+    <file name="u2344-17-m.png" crc="421947386" ref="index"/>
+    <file name="u2344-17-fs.png" crc="475542060" ref="index"/>
+    <file name="u3579-17.png" crc="405238879" ref="index"/>
+    <file name="u3579-17-r.png" crc="531934738" ref="index"/>
+    <file name="u3579-17-m.png" crc="531934738" ref="index"/>
+    <file name="u3579-17-fs.png" crc="4098067630" ref="index"/>
+    <file name="sorso_man1.jpg" crc="230621836" seo="true" ref="index"/>
+    <file name="sorso_man2.jpg" crc="163092811" seo="true" ref="index"/>
+    <file name="sorso_man3.jpg" crc="3771725302" seo="true" ref="index"/>
+    <file name="sorso_man5.jpg" crc="529234951" seo="true" ref="index"/>
+    <file name="sorso_bckgr222 (1).jpg" crc="134495352" ref="index"/>
+    <file name="step1.png" crc="3997104360" seo="true" ref="index"/>
+    <file name="step2.png" crc="3998859539" seo="true" ref="index"/>
+    <file name="step3.png" crc="293669867" seo="true" ref="index"/>
+    <file name="u3629-17.png" crc="405238879" ref="index"/>
+    <file name="u3629-17-r.png" crc="531934738" ref="index"/>
+    <file name="u3629-17-m.png" crc="531934738" ref="index"/>
+    <file name="u3629-17-fs.png" crc="4098067630" ref="index"/>
+    <file name="u3672-17.png" crc="405238879" ref="index"/>
+    <file name="u3672-17-r.png" crc="531934738" ref="index"/>
+    <file name="u3672-17-m.png" crc="531934738" ref="index"/>
+    <file name="u3672-17-fs.png" crc="4098067630" ref="index"/>
+    <file name="sorso_bckgr2s (1).jpg" crc="404246438" ref="index"/>
+    <file name="man.png" crc="4223399238" seo="true" ref="index"/>
+    <file name="u1384-17.png" crc="474447501" ref="index"/>
+    <file name="u1384-17-r.png" crc="485956010" ref="index"/>
+    <file name="u1384-17-m.png" crc="485956010" ref="index"/>
+    <file name="u1384-17-fs.png" crc="4144018315" ref="index"/>
+    <file name="radiobuttonunchecked.png" crc="232010369" ref="index"/>
+    <file name="radiobuttonuncheckedrollover.png" crc="173297973" ref="index"/>
+    <file name="radiobuttonuncheckedmousedown.png" crc="210422217" ref="index"/>
+    <file name="radiobuttonchecked.png" crc="424951658" ref="index"/>
+    <file name="radiobuttoncheckedrollover.png" crc="135556972" ref="index"/>
+    <file name="radiobuttoncheckedmousedown.png" crc="475385202" ref="index"/>
+    <file name="close.png" crc="3927572377" seo="true" ref="index"/>
+    <file name="u3753-17.png" crc="405238879" ref="index"/>
+    <file name="u3753-17-r.png" crc="531934738" ref="index"/>
+    <file name="u3753-17-m.png" crc="531934738" ref="index"/>
+    <file name="u3753-17-fs.png" crc="4098067630" ref="index"/>
+    <file name="bg_menu_down.png" crc="535500126" ref="index"/>
+    <file name="tnakyou.jpg" crc="4201647131" ref="thankyou"/>
+    <file name="лого.png" crc="92084668" ref="index"/>
+  </folder>
+  <file name="index.html" crc="67818570" seo="true" mt="1455807509602" redirect="true"/>
+  <file name="thankyou.html" crc="3809304703" seo="true" mt="1450205756499" redirect="true"/>
+</manifest>
