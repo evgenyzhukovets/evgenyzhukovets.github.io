@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  	<meta name="theme-color" content="#a8a719"/>
+  	<meta name="msapplication-navbutton-color" content="#a8a719"/>
+  	<meta name="apple-mobile-web-app-status-bar-style" content="#a8a719"/>
+
+    <title></title>
+    <link rel="stylesheet" href="UISite/libs.min.css"/>
+    <link rel="stylesheet" href="UISite/styles.css"/>
+    <script src="UI/JQuery/js/jquery-2.2.4.min.js"></script>
+  </head>
+  <body>
+	<header class="main-header">
+		<div class="container">
+			<div class="row">
+				<div class="main-header__logo col-lg-5 ">
+
+          <a href="index.html" class="main-logo">
+            <img src="UISite/images/logo.png" alt="" class="main-logo__img img-responsive">
+            <span class="main-logo__slogan">Традиции будущего</span>
+          </a>
+				</div>
+				<div class="col-lg-7">
+						<div class="socials main-header__socials">
+							<a href="#" class="socials__link socials__link_instagram"><i class="fa fa-instagram"></i></a>
+              <a href="#" class="socials__link socials__link_facebook"><i class="fa fa-facebook"></i></a>
+              <a href="#" class="socials__link socials__link_google-plus"><i class="fa fa-google-plus"></i></a>
+		          <a href="#" class="socials__link socials__link_vk"><i class="fa fa-vk"></i></a>      
+		        </div>
+            <nav class="main-nav main-header__nav">
+              <ul id="main-menu" class="main-menu">
+                <li class="main-menu__item">
+                  <a href="catalog.html" class="main-menu__link">Каталог</a>
+                  <ul class="main-menu__dropdown dropdown">
+                    <li>
+                      <a href="cart.html" class="dropdown__link">
+                        Офисная мебель "Tradiciya"
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="main-menu__item">
+                  <a href="contacts.html" class="main-menu__link">Контакты</a>
+                </li>
+              </ul>
+              <a href="#main-menu" class="toggle-btn main-nav__toggle"><i class="fa fa-navicon fa_lg"></i></a>
+            </nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main class="main-content">
+		<section class="mp-section mp-section_slider">
+      <div class="main-slider slider">
+        <div class="main-slider__before animated"></div>
+        <div class="main-slider__after animated"></div>
+        <div class="owl-carousel owl-theme">
+          <div class="item main-slider__item" style="background-image: url('UISite/images/slide.jpg')">
+            <div class="container">
+                  <div class="main-slider__content slider-content">
+                    <div class="h1 slider-content__header">
+                      Создаем атмосферу
+                    </div>
+                    <p>
+                      <a href="#">Офисные столы</a>
+                    </p>
+                    <ul class='main-slider__dots owl-dots'> 
+                      <li class='owl-dot owl-dot_active'></li> 
+                      <li class='owl-dot'></li> 
+                    </ul>
+                  </div>
+            </div>
+          </div>
+          <div class="item main-slider__item" style="background-image: url('UISite/images/slide2.jpg')">
+            <div class="container">
+                  <div class="main-slider__content slider-content">
+                    <div class="h1 slider-content__header">
+                      Создаем атмосферу
+                    </div>
+                    <p>
+                      <a href="#">Офисные столы</a>
+                    </p>
+                    <ul class='main-slider__dots owl-dots'> 
+                      <li class='owl-dot'></li> 
+                      <li class='owl-dot owl-dot_active'></li> 
+                    </ul>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <a href="" class="slider__btn slider__btn_prev"> <i class="fa fa-angle-left"></i> </a>
+            <a href="" class="slider__btn slider__btn_next"><i class="fa fa-angle-right"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row mp-benefits">
+          <div class="col col-xs-6 col-sm-6 col-md-2">
+            <div class="benefit">
+              <div class="benefit__img">
+                <img src="UISite/images/benefit1.png" alt="" class="img-responsive">
+              </div>
+              <div class="benefit__text">
+                Собственное производство
+              </div>
+            </div>
+          </div>
+          <div class="col col-xs-6 col-sm-6 col-md-2 ">
+            <div class="benefit">
+              <div class="benefit__img">
+                <img src="UISite/images/benefit2.png" alt="" class="img-responsive">
+              </div>
+              <div class="benefit__text">
+                Комплексные решения
+              </div>
+            </div>
+          </div>
+          <div class="col col-xs-6 col-sm-6 col-md-2">
+            <div class="benefit">
+              <div class="benefit__img">
+                <img src="UISite/images/benefit3.png" alt="" class="img-responsive">
+              </div>
+              <div class="benefit__text">
+                15 лет успешной работы
+              </div>
+            </div>
+          </div>
+          <div class="col col-xs-6 col-sm-6 col-md-2">
+            <div class="benefit">
+              <div class="benefit__img">
+                <img src="UISite/images/benefit4.png" alt="" class="img-responsive">
+              </div>
+              <div class="benefit__text">
+                Гарантия и качество
+              </div>
+            </div>
+          </div>
+          <div class="col col-xs-6 col-sm-6 col-md-2 ">
+            <div class="benefit">
+              <div class="benefit__img">
+                <img src="UISite/images/benefit5.png" alt="" class="img-responsive">
+              </div>
+              <div class="benefit__text">
+                Индивидуальный подход
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="mp-section section_inverse">
+      <div class="container">
+        <header class="mp-section__header section_inverse__header">
+          <div class="h1">Мы предлагаем</div>
+        </header>
+        <div class="row mp-categories">
+          <div class="cat-col">
+            <a href="#" class="cat-block cat-block1" style="background-image: url('UISite/images/category1.png')">
+              <span class="cat-block__header">
+                <span class="cat-block__caption">Buisness</span>
+                <span class="cat-block__title">Офисная мебель</span>
+              </span>
+            </a>
+          </div>
+          <div class="cat-col">
+            <div class="cat-row clearfix">
+              <div class="cat-col">
+                <a href="#" class="cat-block cat-block2" style="background-image: url('UISite/images/category1.png')">
+                  <span class="cat-block__header">
+                    <span class="cat-block__caption">HoReCa</span>
+                    <span class="cat-block__title">Для фуд-кортов, кафе и ресторанов</span>
+                  </span>
+                </a>
+              </div>
+              <div class="cat-col">
+                <a href="#" class="cat-block cat-block3" style="background-image: url('UISite/images/category1.png')">
+                  <span class="cat-block__header">
+                    <span class="cat-block__caption">HoReCa</span>
+                    <span class="cat-block__title">Для фуд-кортов, кафе и ресторанов</span>
+                  </span>
+                </a>
+              </div>
+            </div>
+            <div class="cat-row clearfix">
+              <div class="cat-col">
+                <a href="#" class="cat-block cat-block4" style="background-image: url('UISite/images/category1.png')">
+                  <span class="cat-block__header">
+                    <span class="cat-block__caption">HoReCa</span>
+                    <span class="cat-block__title">Для фуд-кортов, кафе и ресторанов</span>
+                  </span>
+                </a>
+              </div>
+              <div class="cat-col">
+                <div class="cat-row clearfix">
+                  <a href="#" class="cat-block cat-block5" style="background-image: url('UISite/images/category1.png')">
+                    <span class="cat-block__header">
+                      <span class="cat-block__caption">HoReCa</span>
+                      <span class="cat-block__title">Для фуд-кортов, кафе и ресторанов</span>
+                    </span>
+                  </a>
+                </div>
+                <div class="cat-row clearfix">
+                  <a href="#" class="cat-block cat-block6" style="background-image: url('UISite/images/category1.png')">
+                    <span class="cat-block__header">
+                      <span class="cat-block__caption">HoReCa</span>
+                      <span class="cat-block__title">Для фуд-кортов, кафе и ресторанов</span>
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="mp-section mp-projects">
+      <div class="container">
+        <header class="mp-section__header">
+          <div class="h1">Ключевые проекты</div>
+        </header>
+
+        <div class="mp-projects__items row">
+          <div class="col col-xs-6 col-sm-6 col-md-4">
+            <a href="#" class="project">
+              <img src="UISite/images/project1.png" alt="" class="project__img img-responsive">
+              <div class="project__title">
+                Кафе Аливария
+              </div>
+            </a>
+          </div>
+          <div class="col col-xs-6 col-sm-6 col-md-4">
+            <a href="#" class="project">
+              <img src="UISite/images/project1.png" alt="" class="project__img img-responsive">
+              <div class="project__title">
+                Кафе Аливария
+              </div>
+            </a>
+          </div>
+          <div class="col col-xs-6 col-sm-6 col-md-4">
+            <a href="#" class="project">
+              <img src="UISite/images/project1.png" alt="" class="project__img img-responsive">
+              <div class="project__title">
+                Кафе Аливария
+              </div>
+            </a>
+          </div>
+          <div class="col col-xs-6 col-sm-6 col-md-4">
+            <a href="#" class="project">
+              <img src="UISite/images/project1.png" alt="" class="project__img img-responsive">
+              <div class="project__title">
+                Кафе Аливария 
+              </div>
+            </a>
+          </div>
+          <div class="col col-xs-6 col-sm-6 col-md-4">
+            <a href="#" class="project">
+              <img src="UISite/images/project1.png" alt="" class="project__img img-responsive">
+              <div class="project__title">
+                Кафе Аливария
+              </div>
+            </a>
+          </div>
+          <div class="col col-xs-6 col-sm-6 col-md-4">
+            <a href="#" class="project">
+              <img src="UISite/images/project1.png" alt="" class="project__img img-responsive">
+              <div class="project__title">
+                Кафе Аливария
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="row ta-center">
+          <a href="#" class="link mp-projects__more">Показать еще</a>
+        </div>
+      </div>
+    </section>
+    <section class="mp-section">
+      <div class="container">
+        <header class="mp-section__header">
+          <div class="h1">Нам доверяют</div>
+        </header>
+        <div class="companies-slider slider">
+          <div class="owl-carousel owl-theme">
+              <div class="item"><img src="UISite/images/company1.jpg" alt=""></div>
+              <div class="item"><img src="UISite/images/company2.jpg" alt=""></div>
+              <div class="item"><img src="UISite/images/company1.jpg" alt=""></div>
+              <div class="item"><img src="UISite/images/company2.jpg" alt=""></div>
+              <div class="item"><img src="UISite/images/company1.jpg" alt=""></div>
+              <div class="item"><img src="UISite/images/company2.jpg" alt=""></div>
+              <div class="item"><img src="UISite/images/company1.jpg" alt=""></div>
+              <div class="item"><img src="UISite/images/company2.jpg" alt=""></div>
+          </div>
+          <a href="" class="slider__btn slider__btn_prev"> <i class="fa fa-angle-left"></i> </a>
+          <a href="" class="slider__btn slider__btn_next"><i class="fa fa-angle-right"></i></a>
+        </div>
+      </div>
+    </section>
+	</main>
+	<footer class="main-footer">
+		<div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="main-footer__title h3">Салон мебели</div>
+          
+          Адрес: РБ, 220004 <address>г.Минск, ул. Димитрова, 5 </address><br>  
+          Тел.: +375 17 200-88-39 <br> 
+          Факс:+375 17 200-99-24 <br> 
+          E-Mail:office@mebeltrad.by <br>  
+          E-Mail:mebeltrad@mail.ru
+       
+        </div>
+        <div class="col-md-4">
+          <div class="main-footer__title h3">Производство</div>
+            Адрес: РБ, 220004 <address> г.Минск, ул. Цеткин, 5 </address> <br> 
+            Тел.: +375 29 617-77-77 <br> 
+            Тел\Факс:+375 17 328-50-14 <br> 
+            E-Mail:mebeltrad@inbox.ru <br> 
+        </div>
+        <div class="col-md-4">
+          <div class="main-footer__title h3">Наши реквизиты</div>
+          ОДО «Мебельные традиции»<br> 
+          220020, <address>г. Минск, ул. Пионерская, д. 37а, каб. 12 </address> <br> 
+          УНП 191450575, ОКПО 379864815000<br> 
+        </div>
+      </div>  
+      <div class="row main-footer__bottom">
+        <div class="col-md-6 main-footer__copyright">
+          <span class="copyright">ОДО “Мебельные традиции”</span>
+        </div>
+        <div class="col-md-6">
+          <div class="socials main-footer__socials">
+            Мы в 
+              <a href="#" class="socials__link socials__link_instagram"><i class="fa fa-instagram"></i></a>
+              <a href="#" class="socials__link socials__link_facebook"><i class="fa fa-facebook"></i></a>
+              <a href="#" class="socials__link socials__link_google-plus"><i class="fa fa-google-plus"></i></a>
+              <a href="#" class="socials__link socials__link_vk"><i class="fa fa-vk"></i></a>      
+            </div>
+        </div>
+      </div>
+    </div>
+	</footer>
+
+
+    <script src="UI/Viki/js/viki.core.2.js"></script>
+    <script src="UISite/libs.min.js"></script>
+    <script src="UISite/common.js"></script>
+  </body>
+</html>

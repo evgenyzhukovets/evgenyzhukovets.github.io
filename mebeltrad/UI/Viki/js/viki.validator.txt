@@ -1,0 +1,99 @@
+/*-------- Validator -------*/
+/*
+Example of using: 
+ 
+<!--RULE: required [+ email] -->
+<div GroupValidateName_for="forName1" class="ff-row">
+<label>Your name 1:<span>*</span></label>
+<input id="id1" GroupValidateName="required" GroupValidateName_item="forName1" type="text" />
+</div>
+
+<div GroupValidateName_for="forName2" class="ff-row">
+<label>Your name 2:<span>*</span></label>
+<input id="id2" GroupValidateName="required" GroupValidateName_item="forName2" type="text" />
+</div>
+
+<div GroupValidateName_for="forName3" class="ff-row">
+<label>Your name 3:<span>*</span></label>
+<input id="id3" GroupValidateName="required min[5] max[10]" GroupValidateName_item="forName3" type="text" />
+</div>
+
+<div GroupValidateName_for="forName4" class="ff-row">
+<label>Numeric number 1:<span>*</span></label>
+<input GroupValidateName="required int[-1;5]" GroupValidateName_item="forName4" type="text" />
+</div>
+
+<!--RULE: displayed tags -->
+<div style="display:none;" GroupValidateName_show="invalid animation" class="error-p" >
+<p style="display:none;" GroupValidateName_show_for="forName2" GroupValidateName_show="invalid" >
+- Your name 2
+</p>
+<p style="display:none;" GroupValidateName_show_for="forName3" GroupValidateName_show_rules="required min" GroupValidateName_show="invalid" >
+- Your name 3 must be required and min[5]
+</p>
+<p style="display:none;" GroupValidateName_show_for="forName3" GroupValidateName_show_rules="max" GroupValidateName_show="invalid" >
+- Your name 3 must be max[10]
+</p>
+<p style="display:none;" GroupValidateName_show_for="forName4" GroupValidateName_show_rules="required int" GroupValidateName_show="invalid" >
+- Your Numeric number 1 must be numeric
+</p>
+<p>-Enter the correct data</p>
+</div>
+
+
+
+<a href="#" onclick="Validator.Check('GroupValidateName'); return false;">click</a>
+
+
+
+
+<br />========================================<br />
+
+
+<!--RULE: required [+ email] -->
+<div GroupValidateName1_for="Text1" class="ff-row">
+<label>Your name 1:<span>*</span></label>
+<input id="Text1" GroupValidateName1="required" type="text" />
+</div>
+
+<div GroupValidateName1_for="Text2" class="ff-row">
+<label id="lblText2">Your name 2:<span>*</span></label>
+<input id="Text2" GroupValidateName1="required" type="text" />
+</div>
+
+<div GroupValidateName1_for="Text3" class="ff-row">
+<label>Your name 3:<span>*</span></label>
+<input id="Text3" GroupValidateName1="required min[5] max[10]" type="text" />
+</div>
+
+<!--RULE: displayed tags -->
+<div style="display:none;" GroupValidateName1_summary="1" GroupValidateName1_show="invalid animation" class="error-p" >
+<p style="display:none;" GroupValidateName1_show_for="Text2" GroupValidateName1_show="invalid" >
+- Your name 2
+</p>
+<p style="display:none;" GroupValidateName1_show_for="Text3" GroupValidateName1_show_rules="required min" GroupValidateName1_show="invalid" >
+- Your name 3 must be required and min[5]
+</p>
+<p style="display:none;" GroupValidateName1_show_for="Text3" GroupValidateName1_show_rules="max" GroupValidateName1_show="invalid" >
+- Your name 3 must be max[10]
+</p>    
+</div>
+
+
+
+<script type="text/javascript">
+
+var jSon = [
+{ Key: 'Text2', LabelId: 'lblText2', Text: 'Server error of Text2 ...', Type: '' },
+{ Key: '', LabelId: '', Text: 'Server error ...', Type: '' }, 
+];
+
+</script>
+
+
+
+<a href="#" onclick="Validator.CheckBySelector('GroupValidateName1'); return false;">click</a>
+<a href="#" onclick="Validator.SetSummary('GroupValidateName1', jSon, '<li>{0}</li>', true); return false;">set errors</a>
+
+
+*/

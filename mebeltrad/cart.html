@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<meta name="theme-color" content="#a8a719"/>
+	<meta name="msapplication-navbutton-color" content="#a8a719"/>
+	<meta name="apple-mobile-web-app-status-bar-style" content="#a8a719"/>
+
+    <title></title>
+    <link rel="stylesheet" href="UISite/libs.min.css"/>
+    <link rel="stylesheet" href="UISite/styles.css"/>
+    <script src="UI/JQuery/js/jquery-2.2.4.min.js"></script>
+  </head>
+  <body>
+	<header class="main-header">
+		<div class="container">
+			<div class="row">
+				<div class="main-header__logo col-lg-5 ">
+
+          <a href="index.html" class="main-logo">
+            <img src="UISite/images/logo.png" alt="" class="main-logo__img img-responsive">
+            <span class="main-logo__slogan">Традиции будущего</span>
+          </a>
+				</div>
+				<div class="col-lg-7">
+						<div class="socials main-header__socials">
+							<a href="#" class="socials__link socials__link_instagram "><i class="fa fa-instagram"></i></a>
+              <a href="#" class="socials__link socials__link_facebook "><i class="fa fa-facebook"></i></a>
+              <a href="#" class="socials__link socials__link_google-plus "><i class="fa fa-google-plus"></i></a>
+		          <a href="#" class="socials__link socials__link_vk "><i class="fa fa-vk"></i></a>      
+		        </div>
+            <nav class="main-nav main-header__nav">
+              <ul id="main-menu" class="main-menu">
+                <li class="main-menu__item">
+                  <a href="catalog.html" class="main-menu__link">Каталог</a>
+                  <ul class="main-menu__dropdown dropdown">
+                    <li>
+                      <a href="cart.html" class="dropdown__link">
+                        Офисная мебель "Tradiciya"
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="main-menu__item">
+                  <a href="contacts.html" class="main-menu__link">Контакты</a>
+                </li>
+              </ul>
+              <a href="#main-menu" class="toggle-btn main-nav__toggle"><i class="fa fa-navicon fa_lg"></i></a>
+            </nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main class="main-content">
+    <div class="container">
+      <header class="row ">
+        <div class="col-sm-offset-3 col-sm-9">
+          <h1 class="h1 page-header page-header_catalog">Офисная мебель "Tradiciya"</h1>
+        </div>
+      </header>
+      <div class="row">
+        <sidebar class="left-sidebar col-sm-3">
+          <a href="#cat-list" class="toggle-btn toggle-btn_cat-list"><i class="fa fa-navicon" aria-hidden="true"></i> Каталог</a>
+
+          <ul id="cat-list" class="cat-list">
+            <li class="cat-list__cat">
+              <a href="#">Для персонала</a>
+            </li>
+            <li class="cat-list__cat cat-list__cat_active">
+              <a href="#">Для среднего руководящего звена</a>
+              <ul class="cat-list__sub">
+                <li class="cat-list__sub-cat"><a href="#" >Офисная мебель "Традиция"</a></li>
+                <li class="cat-list__sub-cat"><a href="#" >Офисная мебель "Традиция"</a></li>
+                <li class="cat-list__sub-cat"><a href="#" >Офисная мебель "Традиция"</a></li>
+              </ul>
+            </li>
+            <li class="cat-list__cat">
+              <a href="#">Для персонала</a>
+            </li>
+          </ul>
+        </sidebar>
+        <div class="catalog col-sm-9">
+          <div class="path"><a href="../">Главная</a>&nbsp;|&nbsp;Офисная мебель</div>
+          <div class="catalog-slider slider">
+            <div class="owl-carousel owl-theme">
+                <div class="item"><img src="UISite/images/category.png" alt=""></div>
+                <div class="item"><img src="UISite/images/category.png" alt=""></div>
+                <div class="item"><img src="UISite/images/category.png" alt=""></div>
+                <div class="item"><img src="UISite/images/category.png" alt=""></div>
+                <div class="item"><img src="UISite/images/category.png" alt=""></div>
+            </div>
+            <a href="" class="slider__btn slider__btn_prev"> <i class="fa fa-angle-left"></i> </a>
+            <a href="" class="slider__btn slider__btn_next"><i class="fa fa-angle-right"></i></a>
+          </div>
+
+          <div class="row">
+            <div class="col-md-8">
+              <article class="content-block">
+                <p>
+                  Коллекция офисной мебели «Традиция» создана для руководителей молодой, динамично развивающейся компании. Стильное сочетание оттенков натурального дерева с холодным блеском алюминиевых деталей и матовым стеклом создают неповторимый дизайн кабинета.
+                </p>
+                <p>
+                  Массивные эргономичные столешницы, алюминиевый профиль придают ощущение респектабельности и надежности. Набор элементов позволяет создавать оптимальные компоновки с учетом потребностей руководителя, не зависимо от площади и планировки кабинета.
+                </p>
+                <p>
+                  Традиции эффективной офисной комплектации
+                </p>
+              </article>
+              <div class="download-price catalog__download-price">
+                <span class="download-price__icon"><i class=" icon icon-xls"></i></span>
+                <a href="#" class="link">Скачать прайс</a>
+              </div>
+            </div>
+            <div class="col-md-4 right-sidebar">
+              <p class="right-sidebar__title">Материалы исполнения:</p>
+                <img src="UISite/images/material.png" alt="" class="material img-responsive">
+                <img src="UISite/images/material2.png" alt="" class="material img-responsive">
+            </div>
+          </div>
+          
+          <section class="tech-cat">
+            <header class="section__header h2">
+              Технические характеристики и особенности
+            </header>
+            <ul class="product-cats">
+              <li><a href="#" class="product-cats__link">Рабочие столы </a></li>
+              <li><a href="#" class="product-cats__link product-cats__link_active">Рабочие столы </a></li>
+            </ul>
+            <div class="row products">
+              <div class="col col-md-6">
+                <div class="product clearfix">
+                  <div class="product__img">
+                    <img src="UISite/images/product.png" alt="" class="img-responsive">
+                  </div>
+                  <div class="product__img__desc">
+                    <span class="product__art">Артикул: М-12.2</span>
+                    <span class="product__name">Стеллаж 2-х полочный М-12.2</span>
+                    <span class="product__size">1669х1612х750</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col col-md-6">
+                <div class="product clearfix">
+                  <div class="product__img">
+                    <img src="UISite/images/product.png" alt="" class="img-responsive">
+                  </div>
+                  <div class="product__desc">
+                    <span class="product__art">Артикул: М-12.2</span>
+                    <span class="product__name">Стеллаж 2-х полочный М-12.2</span>
+                    <span class="product__size">1669х1612х750</span>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col col-md-6">
+                <div class="product clearfix">
+                  <div class="product__img">
+                    <img src="UISite/images/product.png" alt="" class="img-responsive">
+                  </div>
+                  <div class="product__img__desc">
+                    <span class="product__art">Артикул: М-12.2</span>
+                    <span class="product__name">Стеллаж 2-х полочный М-12.2</span>
+                    <span class="product__size">1669х1612х750</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="pg"><div class="pgng f-rgt"><a title="На страницу номер 1" href="http://mebeltrad.by/ofisnaya-mebel/dlya-srednego-rukovodyaschego-zvena/tradiciya/" class="on">1</a><a title="На страницу номер 2" href="?n=13">2</a><a title="На страницу номер 3" href="?n=25">3</a><a title="На страницу номер 4" href="?n=37">4</a><a title="На страницу номер 5" href="?n=49">5</a><span>...</span><a title="На последнюю страницу" href="?n=85">8</a><a title="На следующую страницу" href="?n=13"> след&nbsp;» </a></div><div class="clr"></div></div>
+          </section>
+
+        </div>
+      </div>
+    </div>
+	</main>
+
+
+
+
+
+
+
+
+
+
+	<footer class="main-footer">
+		<div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="main-footer__title h3">Салон мебели</div>
+          
+          Адрес: РБ, 220004 <address>г.Минск, ул. Димитрова, 5 </address><br>  
+          Тел.: +375 17 200-88-39 <br> 
+          Факс:+375 17 200-99-24 <br> 
+          E-Mail:office@mebeltrad.by <br>  
+          E-Mail:mebeltrad@mail.ru
+       
+        </div>
+        <div class="col-md-4">
+          <div class="main-footer__title h3">Производство</div>
+            Адрес: РБ, 220004 <address> г.Минск, ул. Цеткин, 5 </address> <br> 
+            Тел.: +375 29 617-77-77 <br> 
+            Тел\Факс:+375 17 328-50-14 <br> 
+            E-Mail:mebeltrad@inbox.ru <br> 
+        </div>
+        <div class="col-md-4">
+          <div class="main-footer__title h3">Наши реквизиты</div>
+          ОДО «Мебельные традиции»<br> 
+          220020, <address>г. Минск, ул. Пионерская, д. 37а, каб. 12 </address> <br> 
+          УНП 191450575, ОКПО 379864815000<br> 
+        </div>
+      </div>  
+      <div class="row main-footer__bottom">
+        <div class="col-md-6 main-footer__copyright">
+          <span class="copyright">ОДО “Мебельные традиции”</span>
+        </div>
+        <div class="col-md-6">
+          <div class="socials main-footer__socials">
+            Мы в 
+              <a href="#" class="socials__link socials__link_instagram "><i class="fa fa-instagram"></i></a>
+              <a href="#" class="socials__link socials__link_facebook "><i class="fa fa-facebook"></i></a>
+              <a href="#" class="socials__link socials__link_google-plus "><i class="fa fa-google-plus"></i></a>
+              <a href="#" class="socials__link socials__link_vk "><i class="fa fa-vk"></i></a>      
+            </div>
+        </div>
+      </div>
+    </div>
+	</footer>
+
+
+    <script src="UI/Viki/js/viki.core.2.js"></script>
+    <script src="UISite/libs.min.js"></script>
+    <script src="UISite/common.js"></script>
+  </body>
+</html>
