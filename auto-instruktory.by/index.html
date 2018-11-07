@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="ru" class="flexbox">
+  <head> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#278b4d"/>
+
+
+    <title></title>
+    <link rel="stylesheet" href="UISite/libs.min.css"/>
+    <link rel="stylesheet" href="UISite/styles.css"/>
+    <script src="UI/JQuery/js/jquery-2.2.4.min.js"></script>
+  </head>
+  <body>
+    <header class="main-header main-header_mp">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-md-auto d-none d-md-block">
+            <a href="/" class="logo main-header__logo" title="">
+              <img src="/UISite/images/logo.png" class="logo__img" alt="logo">
+            </a>
+          </div>
+          <div class="col-md-auto">
+            <nav class="main-nav">
+              <div class="main-nav__mobile">
+                <a href="" class="logo">
+                  <img src="/UISite/images/logo.png" class="logo__img" alt="logo">
+                </a>
+                <a href="#main-menu" class="menu-toggle main-nav__toggle hamburger hamburger_mp hamburger--squeeze js-hamburger">
+                  <div class="hamburger-box">
+                    <div class="hamburger-inner"></div>
+                  </div>
+                </a>
+              </div>
+              <ul id="main-menu" class="main-nav__menu main-menu container">
+                <li class="main-nav__item">
+                  <a href="#section1" class="main-nav__link scroll-link">О нас</a>        
+                </li>
+                <li class="main-nav__item">
+                  <a href="#section-form" class="main-nav__link scroll-link">Записаться</a>
+                </li>
+                <li class="main-nav__item">
+                  <a href="#section2" class="main-nav__link scroll-link">Преимущества</a>        
+                </li>
+                <li class="main-nav__item">
+                  <a href="#section3" class="main-nav__link scroll-link">Отзывы</a>        
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main-content">
+      <section class="section section_bg section_bg-dark top-section" style="background-image: url('UISite/images/main-bg.jpg');">
+        <div class="container fade-in-left">
+          <header class="top-section__header">
+            <h1>Обучение вождению в сжатые сроки</h1>
+            <h2>Только новые автомобили</h2>
+            <h3>Стоимость одного занятия 25 рублей</h3>
+          </header>
+          <div>
+            <a href="#section-form" class="button scroll-link">Записаться »</a>
+          </div>
+        </div>
+        <a href="#section1" class="scroll-link top-section__scroll-down"><i class="fas fa-chevron-down fa-2x"></i></a>
+      </section>
+      <section id="section1" class="section">
+        <div class="container">
+          <header class="section__header">
+            <h2>Наши инструкторы</h2>
+          </header>
+          <div class="row justify-content-center drivers">
+            <div class="col-md-6 grid-margin-down drivers__item">
+              <div class="driver">
+                <div class="driver__imgs">
+                  <div class="slider car-slider">
+                    <div class="owl-carousel car-slider__carousel">
+                      <div class="slider__item item clearfix">
+                        <img src="UISite/images/car2.jpg" alt="">
+                      </div>
+                      <div class="slider__item item clearfix">
+                        <img src="UISite/images/car2.jpg" alt="">
+                      </div>
+                    </div>
+                    <a href="" class="slider__btn car-slider__btn slider__btn_prev car-slider__btn_prev" title="Назад"> <i class="fa fa-chevron-left"></i> </a>
+                    <a href="" class="slider__btn car-slider__btn slider__btn_next car-slider__btn_next" title="Вперед"><i class="fa fa-chevron-right"></i></a>
+                  </div>
+                  <figure class="driver__photo fade-in-up">
+                    <img src="UISite/images/driver2.jpg" alt="" class="img-responsive">
+                  </figure>
+                </div>
+                <h3 class="driver__name">
+                  Александр Александрович Александров
+                </h3>
+                <div>
+                  Стаж работы инструктором по вождению 10 лет
+                </div>
+                <div class="driver__car">
+                  <strong>Автомобиль Opel Corsa 2018 </strong>
+                </div>
+                <div>
+                  Стоимость занятия (60 мин) 25 рублей
+                </div>
+                <div>
+                  <a href="tel:+375291046302" class="phone"><i class="fas fa-phone"></i> +375 29 505-95-24</a> 
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 grid-margin-down drivers__item">
+              <div class="driver">
+                <div class="slider car-slider">
+                  <div class="owl-carousel car-slider__carousel">
+                    <div class="slider__item item clearfix">
+                      <img src="UISite/images/car2.jpg" alt="">
+                    </div>
+                    <div class="slider__item item clearfix">
+                      <img src="UISite/images/car2.jpg" alt="">
+                    </div>
+                  </div>
+                  <a href="" class="slider__btn car-slider__btn slider__btn_prev car-slider__btn_prev" title="Назад"> <i class="fa fa-chevron-left"></i> </a>
+                  <a href="" class="slider__btn car-slider__btn slider__btn_next car-slider__btn_next" title="Вперед"><i class="fa fa-chevron-right"></i></a>
+                </div>
+                <figure class="driver__photo fade-in-up">
+                  <img src="UISite/images/driver2.jpg" alt="" class="img-responsive">
+                </figure>
+                <h3 class="driver__name">
+                  Александр Александрович Александров
+                </h3>
+                <div>
+                  Стаж работы инструктором по вождению 10 лет
+                </div>
+                <div class="driver__car">
+                  <strong>Автомобиль Volkswagen Polo 2018</strong>
+                </div>
+                <div>
+                  Стоимость занятия (60 мин) 25 рублей
+                </div>
+                <div>
+                  <a href="tel:+375296842783" class="phone"><i class="fas fa-phone"></i> +375 (29) 684-27-83</a>
+                  <a href="viber://add?number=375296842783" class="icon-button icon-button_viber"><i class="fab fa-viber"></i></a>
+                  <a href="http://telegram.me/ZarovskiyDmitriy" class="icon-button icon-button_telegram"><i class="fab fa-telegram-plane"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+      <section id="section-form" class="section section_bg-color">
+        <div class="container">
+          <header class="section__header">
+            <h2>Записаться на вождение</h2>
+          </header>
+          <div class="text-center">
+            Стоимость занятия 25 рублей. Оставьте заявку и инструктор свяжется с вами
+          </div>
+          <div class="">
+            <form class="custom-form callback-form" method="POST" action="">
+              <div class="row callback-form__fields">
+                <div class="callback-form__field field col-md">
+                  <input custom-formcallback="required" placeholder="Ваше имя" type="text"></div>
+                <div class="callback-form__field field col-md">
+                  <input custom-formcallback="required" placeholder="Ваш телефон" type="text">
+                </div>
+                <div class="callback-form__field field col-md">
+                  <button id="submit" type="submit" class="button button_dark">Отправить</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section id="section2" class="section section_bg section_bg-dark" style="background-image: url('UISite/images/section-bg.jpg');">
+        <div class="container container_sm">
+          <header class="section__header">
+            <h2>Преимущества наших автомобилей</h2>
+          </header>
+          Новые автомобили повышенной комфортности. Обе машины имеют следующие функции:
+
+          <ul class="nolist benefits">
+            <li class="benefits__item fade-in-right">
+              <i class="fas fa-car fa-3x"></i><span> Помощь при трогонии на уклоне. Т.е при выполнении такого элемента как эстакада ли бо же при старте под горку в городе , исключен откат назад и естественно не будет аварийной ситуации</span>
+            </li>
+            <li class="benefits__item fade-in-right">
+              <i class="fas fa-car fa-3x"></i> На данных автомобилях практически не возможно заглохнуть
+            </li>
+            <li class="benefits__item fade-in-right">
+              <i class="fas fa-car fa-3x"></i> Функция электроусилитель руля, что позволяет крутить руль даже одним пальцем
+            </li>
+            <li class="benefits__item fade-in-right">
+              <i class="fas fa-car fa-3x"></i> Автоматические датчики дождя и света, не нужно включать стеклоочистители и свет. Все происходит в автоматическом режиме, что позволяет не отвлекаться во время движения на экзамене
+            </li>
+            <li class="benefits__item fade-in-right">
+              <i class="fas fa-car fa-3x"></i> Многие другие функции позволяющие с легкостьб и комфортом упровлять автомобилем.
+            </li>
+          </ul>
+          <div class="text-center">
+            <a href="" target="_blank" class="button" title="Наш канал на Youtube"><i class="fab fa-youtube"></i> Наш канал на Youtube</a>
+          </div>
+        </div>
+      </section>
+      <section id="section3" class="section container">
+        <header class="section__header ">
+          <h2>Отзывы</h2>
+        </header>
+        <div class="slider comments-slider">
+            <div class="owl-carousel comments-slider__carousel">
+                <div class="slider__item item clearfix">
+                  <div class="comment clearfix">
+                    <div class="comment__photo">
+                      <img src="UISite/images/user.jpg" alt="" class="img-responsive">
+                    </div>
+                    <div class="comment__text">
+                      "Хочу выразить огромную благодарность инструктору Александру Чечухе. Я окончила другую автошколу, где у меня сменилось 3 инструктора (не по моей вине, они просто увольнялись из той автошколы, и до ГАИ я с ними не дошла). Так что у меня имеется большая база для сравнения. И лучшего инструктора, я думаю, найти невозможно, потому что он учит именно так, как надо и тому, что надо (как педагог я это точно знаю!) Без лишних дифирамбов, спасибо вам, Александр, большое за то, что я перестала бояться дороги и почувствовала уверенность, что смогу водить. Хороших вам курсантов и лёгкой дороги!"
+                      <p class="comment__name">Мария</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="slider__item item clearfix">
+                  <div class="comment clearfix">
+                    <div class="comment__photo">
+                      <img src="UISite/images/driver1.jpg" alt="" class="img-responsive">
+                    </div>
+                    <div class="comment__text">
+                      "На своем первом практическом занятии единственное, что я знала о машине, - это как переключать радио. Так вот Заровский Дмитрий Михайлович не просто помог мне наверстать все упущенное. С уверенностью могу сказать, что, благодаря именно этому человеку я уверенно чувствую себя за рулем. Хотелось бы также отметить его уровень профессионализма. Будучи на дороге, я много совершала ошибок и вместо неадекватной реакции, Дмитрий Михайлович просто и понятно разбирал допущенные мною ошибки. Каждое занятие на новеньком Renault Sandero не обходилось без добрых шуток и хорошего настроения. Дмитрий Михайлович всегда нацелен на результат и с ним вы с легкостью и без всякого напряжения сдадите на права с первого раза!"
+
+                      <p class="comment__name">Настя</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <a href="" class="slider__btn slider__btn_prev" title="Назад"> <i class="fa fa-chevron-left"></i> </a>
+            <a href="" class="slider__btn slider__btn_next" title="Вперед"><i class="fa fa-chevron-right"></i></a>
+          </div>
+          <div class="text-center">
+            <a href="https://vk.com/avtopovorotby" target="_blank" title="Больше отзывов в нашей группе Вконтакте" class="button"><i class="fab fa-vk"></i> Больше отзывов в нашей группе Вконтакте </a>
+          </div>
+      </section>
+
+      
+    </main>
+
+
+    <footer class="main-footer">
+      <div class="container">
+        <div class="row ">
+          <div class="col-md-4">
+            <div class="main-footer__item">
+              <h3>Контакты</h3>
+              <p>
+                 г. Минск<br>
+                 ул. Подлесная 81
+              </p>
+              <p>
+                <a href="tel:+375295246673" class="phone">+375 (29) 222-22-22</a>
+              </p>
+              <p>
+                <a href="mailto:exhaustby@gmail.com" class="phone">avtoinstruktoryby@gmail.com</a>
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="main-footer__item">
+              <h3>Поделиться</h3>
+              <p>
+                <!-- uSocial --> 
+                <script async src="https://usocial.pro/usocial/usocial.js?v=6.1.4" data-script="usocial" charset="utf-8"></script>
+                <div class="uSocial-Share" style="text-align:center" data-pid="129422d3c9a4e8a5181ef9dc35d1cb59" data-type="share" data-options="round,style1,default,absolute,horizontal,size48,counter0,upArrow-right,nomobile" data-social="vk,fb,gPlus"></div>
+                <!-- /uSocial -->
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="main-footer__item">
+              <h3>Мы в социальных сетях</h3>
+              <div class="socials">
+
+                <a href="#" target="_blank" title="Instagram" class="socials__link">Instagram</a>
+                <a href="#" target="_blank" title="ВКонтакте" class="socials__link">ВКонтакте</a>
+                <a href="#" target="_blank" title="Youtube" class="socials__link">Youtube</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+      <hr>
+      
+      <div class="col-12 col-md-6 mb-2 mb-md-0">
+        © 2018 
+      </div>
+    </div>
+  </footer>
+
+    <script src="UI/Viki/js/viki.core.2.js"></script>
+    <script src="UISite/libs.min.js"></script>
+    <script src="UISite/common.js"></script>
+  </body>
+</html>
