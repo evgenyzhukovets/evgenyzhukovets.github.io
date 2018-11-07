@@ -1,0 +1,320 @@
+/* line 17, ../sass/final.scss */
+* {
+  direction: rtl;
+  text-align: right;
+}
+
+/* line 21, ../sass/final.scss */
+.ltr {
+  direction: ltr;
+}
+
+/* line 24, ../sass/final.scss */
+.content-section__list {
+  padding-left: 0;
+}
+/* line 28, ../sass/final.scss */
+.content-section__list li:before {
+  right: 0;
+  left: auto;
+}
+
+/* line 41, ../sass/final.scss */
+.content-section-main {
+  background-image: url(../img/main-block-bg-inv.png);
+}
+@media screen and (max-width: 768px) {
+  /* line 41, ../sass/final.scss */
+  .content-section-main {
+    background-image: url(../img/main-block-bg_mobile.png);
+    min-height: auto;
+  }
+}
+
+/* line 58, ../sass/final.scss */
+.content-block-main {
+  left: 10%;
+  margin-left: 0px;
+  max-width: 430px;
+}
+@media screen and (max-width: 768px) {
+  /* line 58, ../sass/final.scss */
+  .content-block-main {
+    max-width: 100%;
+  }
+}
+
+/* line 67, ../sass/final.scss */
+.span10, .span12, .span6 {
+  float: right;
+}
+
+/* line 70, ../sass/final.scss */
+.howwork5-content__block1 {
+  margin: 0;
+  margin-left: 7.5px;
+}
+@media screen and (max-width: 768px) {
+  /* line 70, ../sass/final.scss */
+  .howwork5-content__block1 {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+}
+
+/* line 78, ../sass/final.scss */
+.howwork5-content__block2 {
+  margin: 0;
+  margin-right: 7.5px;
+}
+@media screen and (max-width: 768px) {
+  /* line 78, ../sass/final.scss */
+  .howwork5-content__block2 {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+}
+
+/* line 87, ../sass/final.scss */
+.benefits__item p {
+  text-align: center;
+}
+
+/* line 92, ../sass/final.scss */
+.content-section-howwork__title {
+  left: auto;
+  right: 30px;
+}
+
+/* line 97, ../sass/final.scss */
+.right {
+  float: left;
+}
+
+/* line 101, ../sass/final.scss */
+.left {
+  float: right;
+}
+
+/* line 105, ../sass/final.scss */
+.content-section-howwork2 .row1 {
+  right: auto;
+  left: 0;
+  text-align: left;
+  padding-right: 0;
+  padding-left: 55px;
+}
+/* line 111, ../sass/final.scss */
+.content-section-howwork2 .row1 h1, .content-section-howwork2 .row1 h2, .content-section-howwork2 .row1 a {
+  text-align: left;
+}
+/* line 116, ../sass/final.scss */
+.content-section-howwork2 .row2 {
+  padding-top: 154px;
+}
+/* line 119, ../sass/final.scss */
+.content-section-howwork2 .row3 p {
+  max-width: 750px;
+  padding-left: 60px;
+  padding-right: 15px;
+  margin-bottom: 0;
+}
+/* line 125, ../sass/final.scss */
+.content-section-howwork2 .row4 {
+  float: right;
+  text-align: right;
+  padding-right: 0;
+}
+/* line 129, ../sass/final.scss */
+.content-section-howwork2 .row4 h1 {
+  margin: 10px 0;
+  padding-right: 55px;
+}
+/* line 133, ../sass/final.scss */
+.content-section-howwork2 .row4 p {
+  margin-top: 0;
+  padding-right: 15px;
+  max-width: 800px;
+}
+/* line 139, ../sass/final.scss */
+.content-section-howwork2 .content-section-howwork2__app {
+  text-align: left;
+}
+
+/* line 144, ../sass/final.scss */
+.content-section-howwork3__title h1 {
+  text-align: center;
+}
+
+/* line 149, ../sass/final.scss */
+.solution__title {
+  width: 100%;
+}
+
+/* line 154, ../sass/final.scss */
+.solution p, .solution h4 {
+  text-align: center;
+}
+
+/* line 160, ../sass/final.scss */
+.content-section-howwork4 h3 {
+  text-align: center;
+}
+/* line 163, ../sass/final.scss */
+.content-section-howwork4 .container {
+  text-align: center;
+}
+
+/* line 167, ../sass/final.scss */
+.content-section-howwork4__button {
+  margin-left: -100px;
+}
+@media screen and (max-width: 768px) {
+  /* line 167, ../sass/final.scss */
+  .content-section-howwork4__button {
+    margin-left: 0;
+  }
+}
+
+/* line 173, ../sass/final.scss */
+.howwork5-content__block {
+  text-align: center;
+}
+/* line 175, ../sass/final.scss */
+.howwork5-content__block p, .howwork5-content__block h4 {
+  text-align: center;
+}
+
+/* line 181, ../sass/final.scss */
+.content-section-howwork5__title h1 {
+  text-align: center;
+}
+
+/* line 187, ../sass/final.scss */
+.content-section-benefits__title h1 {
+  text-align: center;
+}
+
+/* line 192, ../sass/final.scss */
+.content-section-attract__title h3 {
+  text-align: center;
+}
+
+/* line 196, ../sass/final.scss */
+.content-section-attract__list {
+  margin-left: 200px;
+}
+@media screen and (max-width: 768px) {
+  /* line 196, ../sass/final.scss */
+  .content-section-attract__list {
+    float: right;
+    margin-left: 0;
+  }
+}
+
+/* line 208, ../sass/final.scss */
+.newsletter-form h5, .newsletter-form p {
+  text-align: center;
+}
+/* line 211, ../sass/final.scss */
+.newsletter-form .form-group {
+  text-align: right;
+}
+
+/* line 215, ../sass/final.scss */
+.newsletter-form__submit {
+  text-align: center;
+}
+
+/* line 218, ../sass/final.scss */
+.content-section-solution_b2c {
+  background-image: url(../img/adsnearme-heb.png);
+  background-position: -70% 0;
+}
+@media screen and (min-width: 1001px) {
+  /* line 218, ../sass/final.scss */
+  .content-section-solution_b2c {
+    background-position: 30% 0;
+  }
+}
+
+/* line 226, ../sass/final.scss */
+.content-section-solution_b2c__text {
+  float: left;
+  margin-left: 280px;
+  max-width: 480px;
+}
+
+/* line 232, ../sass/final.scss */
+.content-section-benefits__title_b2c h1, .content-section-benefits__title_b2c p {
+  text-align: center;
+  font-weight: 400;
+}
+
+/* line 238, ../sass/final.scss */
+.benefits__item_heb p {
+  max-width: 230px;
+}
+
+/* line 246, ../sass/final.scss */
+.content-section-geofencing__text {
+  text-align: center;
+}
+
+/* line 250, ../sass/final.scss */
+.content-section-howwork2_b2c .row1.right {
+  float: left;
+  max-width: 520px;
+}
+/* line 253, ../sass/final.scss */
+.content-section-howwork2_b2c .row1.right h1 {
+  text-align: right;
+}
+
+/* line 260, ../sass/final.scss */
+.content-section-attract__title_b2c {
+  float: left;
+  min-width: 500px;
+}
+/* line 263, ../sass/final.scss */
+.content-section-attract__title_b2c h3 {
+  text-align: right;
+}
+
+/* line 267, ../sass/final.scss */
+.content-section-attract__text_b2c {
+  float: left;
+  max-width: 500px;
+}
+
+/* line 272, ../sass/final.scss */
+.owl-wrapper-outer {
+  direction: ltr;
+}
+
+/* line 275, ../sass/final.scss */
+.howwork5-content-item__title {
+  text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+  /* line 278, ../sass/final.scss */
+  .benefits__item {
+    width: 100%;
+    float: left;
+    clear: both;
+    float: none;
+    margin-right: 0 !important;
+  }
+  /* line 66, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/susy-2.2.12/sass/susy/language/susy/_gallery.scss */
+  .benefits__item:nth-child(1n + 1) {
+    margin-left: 0;
+    margin-right: -100%;
+    clear: none;
+  }
+}
+
+/* line 288, ../sass/final.scss */
+.solution {
+  min-height: 750px;
+}
