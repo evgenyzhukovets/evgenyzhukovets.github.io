@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<meta name="theme-color" content="#dd2323"/>
+	<meta name="msapplication-navbutton-color" content="#dd2323"/>
+	<meta name="apple-mobile-web-app-status-bar-style" content="#dd2323"/>
+
+    <title></title>
+    <link rel="stylesheet" href="UISite/libs.min.css"/>
+    <link rel="stylesheet" href="UISite/styles.min.css"/>
+    <script src="UI/JQuery/js/jquery-2.2.4.min.js"></script>
+  </head>
+  <body>
+    <div class="main-page">
+      <header class="main-header main-header_mp" >
+        <a href="#" class="logo main-header__logo">
+          <img src="UISite/images/logo_mp.png" alt="Веб ВИКИ">
+        </a>
+        <div class="main-header__phones">
+          <a href="tel:+375447331922" class="phone phone_accent">+375 (44) <strong>733-19-22</strong></a>
+          <a href="tel:+375297524362" class="phone phone_accent">+375 (29) <strong>752-43-62</strong></a>
+        </div>
+      </header>
+      <a href="#sidebar_menu" class="hamburger hamburger_mp hamburger--squeeze js-hamburger menu-button sidebar-btn">
+        <div class="hamburger-box">
+          <div class="hamburger-inner"></div>
+        </div>
+      </a>
+      <section class="mp-header mp-section mp-section_img" data-parallax="scroll"  data-position="top" data-image-src="UISite/images/mp-header-bg.png">
+        <div class="mp-header__content">
+          <div class="mp-header__company">Студия Веб-ВИКИ</div>
+          <div class="h1 h1_mp mp-header__title">
+            <p>Разработка сайтов</p>
+            <p>Интернет маркетинг</p>
+            <p>Web - системы</p>
+          </div>
+          <div class="mp-header__buttons">
+            <a href="#sidebar_callback" class="button button_tp button_accent sidebar-btn">Напишите нам</a>
+            <a href="#" class="button button_tp">Наши работы</a>
+          </div>
+          <div class="sidebar sidebar_mp sidebar_menu" id="sidebar_menu">
+            <div class="sidebar__content">
+              <div class="sidebar__company">Студия веб вики</div>
+              <nav class="main-menu">
+                <ul>
+                  <li><a href="services.html" class="main-menu__link">Услуги</a></li>
+                  <li><a href="contacts.html" class="main-menu__link">Контакты</a></li>
+                </ul>
+                <ul class="submenu">
+                  <li><a href="project.html" class="main-menu__link main-menu__link_sub">Проекты</a></li>
+                  <li><a href="service.html" class="main-menu__link main-menu__link_sub">Маркетинг</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="sidebar sidebar_mp" id="sidebar_callback">
+            <div class="sidebar__content">
+              <form class="sidebar__form">
+                <input type="text" placeholder="Тема письма" class="input_lg">
+                <input type="text" placeholder="Имя">
+                <input type="text" placeholder="Телефон">
+                <input type="text" placeholder="Email">
+
+                <input type="text" placeholder="Сообщение">
+
+                
+                <a href="#" class="button button_tp button_black button_bold">Отправить</a>
+              </form>
+              
+            </div>
+          </div>
+        </div>
+        <a href="#services" class="mp-header__scroll scrollto">
+          <i class="icon icon-scrollto"></i>
+        </a>
+        <div class="socials mp-header__socials">
+          <a href="#"><i class="icon icon-like"></i></a>
+        </div>
+        <div class="mp-header__write">
+          <a href="#sidebar_callback" class="sidebar-btn">Напишите нам <i class="icon icon-write"></i></a>
+        </div>
+      </section>
+      <section id="services" class=" mp-section container container_sm clearfix">
+        <header class="h2 mp-section__header">
+          Наши услуги
+        </header>
+        <div class="services">
+          <div class="col2">
+            <div class="service service1">
+              <a href="#" class="service__title h3">
+                Маркетинг и реклама
+              </a>
+              <p>Вывод сайтов из поисковых «банов»</p>
+              <p>Мониторинг работоспособности, устранение неполадок в работе</p>
+              <p>SEO аудит сайтов, составление семантических ядер</p>
+              <p>Технические рекомендации по разработке/доработке веб-сайтов</p>
+              <p>Копирайтинг и рерайтинг</p>
+              <p>Еженедельный мониторинг поисковой выдачи, трафика и алгоритмов поисковых систем</p>
+              <p>Управление поисковой репутацией (SERM)</p>
+            </div>
+          </div>
+          <div class="col2">
+            <div class="service service2">
+              <a href="#" class="service__title h3">
+                Разработка сайтов
+              </a>
+              <p>Создание сайтов “Под ключ”</p>
+              <p>Написание статей и обзоров</p>
+              <p>Контент-поддрежка</p>
+              <p>Улучшение производительности сайта</p>
+              <p>Подключение Live-чата оператора с пользователями</p>
+            </div>
+          </div>
+          <div class="col2">
+            <div class="service service3">
+              <a href="#" class="service__title h3">
+                Интернет магазины
+              </a>
+              <p>Создание сайтов “Под ключ”</p>
+              <p>Написание статей и обзоров</p>
+              <p>Контент-поддрежка</p>
+              <p>Улучшение производительности сайта</p>
+              <p>Подключение Live-чата оператора с пользователями</p>
+            </div>
+          </div>
+          <div class="col2">
+            <div class="service service4">
+              <a href="#" class="service__title h3">
+                Веб-системы
+              </a>
+              <p>Создание сайтов “Под ключ”</p>
+              <p>Написание статей и обзоров</p>
+              <p>Контент-поддрежка</p>
+              <p>Улучшение производительности сайта</p>
+              <p>Подключение Live-чата оператора с пользователями</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="portfolio mp-section clearfix">
+        <header class="h2 mp-section__header">
+          Наши работы
+        </header>
+        <ul class="container container_sm portfolio__categories">
+          <li>
+            <a href="#" class="button button_sm button_tp button_black">Все</a>
+          </li>
+          <li>
+            <a href="#" class="button button_sm button_tp button_black">Информационный сайт</a>
+          </li>
+          <li>
+            <a href="#" class="button button_sm button_tp button_black">Сайт компании</a>
+          </li>
+          <li>
+            <a href="#" class="button button_sm button_tp button_black">Корпаративный сайт</a>
+          </li>
+          <li>
+            <a href="#" class="button button_sm button_tp button_black">Интернет-магазин</a>
+          </li>
+          <li>
+            <a href="#" class="button button_sm button_tp button_black">Сайт каталог</a>
+          </li>
+        </ul>
+        <div class="portfolio__items">
+          <div class="portfolio-item portfolio-item1">
+            <div class="portfolio-item__logo">
+              <!--<img src="UISite/images/portfolio2-logo.png" class="img-responsive">-->
+            </div>
+            <div class="portfolio-item__content">
+              <div class="portfolio-item__title h3">Гомельская мебельная фабрика «Прогресс»</div>
+              <ul>
+                <li>Мебель</li>
+                <li>Предметы интерьера</li>
+                <li>Розничная торговля</li>
+              </ul>
+              <a href="#" class="portfolio-item__more">Посмотреть</a>
+            </div>
+          </div>
+          <div class="portfolio-item portfolio-item2">
+            <div class="portfolio-item__logo">
+              <img src="UISite/images/portfolio2-logo.png" class="img-responsive">
+            </div>
+            <div class="portfolio-item__content">
+              <div class="portfolio-item__title h3">Гомельская мебельная фабрика «Прогресс»</div>
+              <ul>
+                <li>Мебель</li>
+                <li>Предметы интерьера</li>
+                <li>Розничная торговля</li>
+              </ul>
+              <a class="portfolio-item__more">Посмотреть</a>
+            </div>
+          </div>
+          <div class="portfolio-item portfolio-item3">
+            <div class="portfolio-item__logo">
+              <img src="UISite/images/portfolio3-logo.png" class="img-responsive">
+            </div>
+            <div class="portfolio-item__content">
+              <div class="portfolio-item__title h3">Гомельская мебельная фабрика «Прогресс»</div>
+              <ul>
+                <li>Мебель</li>
+                <li>Предметы интерьера</li>
+                <li>Розничная торговля</li>
+              </ul>
+              <a class="portfolio-item__more">Посмотреть</a>
+            </div>
+          </div>
+          <div class="portfolio-item portfolio-item4">
+            <div class="portfolio-item__logo">
+              <img src="UISite/images/portfolio4-logo.png" class="img-responsive">
+            </div>
+            <div class="portfolio-item__content">
+              <div class="portfolio-item__title h3">Гомельская мебельная фабрика «Прогресс»</div>
+              <ul>
+                <li>Мебель</li>
+                <li>Предметы интерьера</li>
+                <li>Розничная торговля</li>
+              </ul>
+              <a class="portfolio-item__more">Посмотреть</a>
+            </div>
+          </div>
+          <div class="portfolio-item portfolio-item5">
+            <div class="portfolio-item__logo">
+              <img src="UISite/images/portfolio5-logo.png" class="img-responsive">
+            </div>
+            <div class="portfolio-item__content">
+              <div class="portfolio-item__title h3">Гомельская мебельная фабрика «Прогресс»</div>
+              <ul>
+                <li>Мебель</li>
+                <li>Предметы интерьера</li>
+                <li>Розничная торговля</li>
+              </ul>
+              <a class="portfolio-item__more">Посмотреть</a>
+            </div>
+          </div>
+          <div class="portfolio-item portfolio-item6">
+            <div class="portfolio-item__logo">
+              <img src="UISite/images/portfolio6-logo.png" class="img-responsive">
+            </div>
+            <div class="portfolio-item__content">
+              <div class="portfolio-item__title h3">Гомельская мебельная фабрика «Прогресс»</div>
+              <ul>
+                <li>Мебель</li>
+                <li>Предметы интерьера</li>
+                <li>Розничная торговля</li>
+              </ul>
+              <a class="portfolio-item__more">Посмотреть</a>
+            </div>
+          </div>
+          <div class="portfolio-item portfolio-item7">
+            <div class="portfolio-item__logo">
+              <img src="UISite/images/portfolio7-logo.png" class="img-responsive">
+            </div>
+            <div class="portfolio-item__content">
+              <div class="portfolio-item__title h3">Гомельская мебельная фабрика «Прогресс»</div>
+              <ul>
+                <li>Мебель</li>
+                <li>Предметы интерьера</li>
+                <li>Розничная торговля</li>
+              </ul>
+              <a class="portfolio-item__more">Посмотреть</a>
+            </div>
+          </div>
+          <div class="portfolio-item portfolio-item8">
+            <div class="portfolio-item__logo">
+              <img src="UISite/images/portfolio8-logo.png" class="img-responsive">
+            </div>
+            <div class="portfolio-item__content">
+              <div class="portfolio-item__title h3">Гомельская мебельная фабрика «Прогресс»</div>
+              <ul>
+                <li>Мебель</li>
+                <li>Предметы интерьера</li>
+                <li>Розничная торговля</li>
+              </ul>
+              <a class="portfolio-item__more">Посмотреть</a>
+            </div>
+          </div>
+          <div class="portfolio-item portfolio-item9">
+            <div class="portfolio-item__logo">
+              <img src="UISite/images/portfolio9-logo.png" class="img-responsive">
+            </div>
+            <div class="portfolio-item__content">
+              <div class="portfolio-item__title h3">Гомельская мебельная фабрика «Прогресс»</div>
+              <ul>
+                <li>Мебель</li>
+                <li>Предметы интерьера</li>
+                <li>Розничная торговля</li>
+              </ul>
+              <a class="portfolio-item__more">Посмотреть</a>
+            </div>
+          </div>
+          <div class="portfolio-item portfolio-item10">
+            <div class="portfolio-item__logo">
+              <img src="UISite/images/portfolio10-logo.png" class="img-responsive">
+            </div>
+            <div class="portfolio-item__content">
+              <div class="portfolio-item__title h3">Гомельская мебельная фабрика «Прогресс»</div>
+              <ul>
+                <li>Мебель</li>
+                <li>Предметы интерьера</li>
+                <li>Розничная торговля</li>
+              </ul>
+              <a class="portfolio-item__more">Посмотреть</a>
+            </div>
+          </div>          
+        </div>
+      </section>
+      <section class="mp-benefits mp-section container container_sm ">
+        <header class="h2 mp-section__header">
+          Почему мы?
+        </header>
+        <div class="clearfix">
+          <div class="benefits-item benefits-item1">
+            <div class="benefits-item__text">
+              Разработка и создание сайта под ключ в зависимости от вашего бюджета и потребностей
+            </div>
+          </div>
+          <div class="benefits-item benefits-item2">
+            <div class="benefits-item__text">
+              Создадим адаптивный дизайн, подстраиваемый под любое разрешение
+экрана
+            </div>
+          </div>
+          <div class="benefits-item benefits-item3">
+            <div class="benefits-item__text">
+              Предлагаем долгосрочное и взаимовыгодное сотрудничество
+            </div>
+          </div>
+        </div>
+        <a href="#" class="button mp-benefits__button">Оставить заявку</a>
+      </section>
+      <section class="mp-about mp-section mp-section_img" data-parallax="scroll"  data-position="bottom" data-image-src="UISite/images/mp-about-bg.png">
+        <div class="mp-about__content">
+          <header class="mp-about__header h2">Кто мы?</header>
+          <p>
+            Команда, ориентированная на достижение целей.
+          </p>
+          <p>
+            Мы верим, что качество важнее количества.
+          </p>
+          <a href="#" class="button button_tp mp-about__button">Узнать больше</a>
+        </div>
+       </section> 
+       <section class="mp-blog mp-section container container_sm ">
+          <header class="h2 mp-section__header">
+            Блог
+          </header>
+          <div class="clearfix">
+            <div class="blog-item">
+              <a href="#" class="blog-item__title">
+              Pro тестирование сайта
+              </a>
+              <div class="blog-item__text">
+                Перед тем, как сдать сайт заказчику, необходимо проверить его на предмет ошибок и недоработок. Проще говоря провести тестирование...
+              </div>
+            </div>
+            <div class="blog-item">
+              <a href="#" class="blog-item__title">
+                Что такое модель SAAS, ее преимущества и примеры
+              </a>
+              <div class="blog-item__text">
+                В этой статье мы поговорим о технологии SaaS, о которой вы могли уже не раз слышать, если сталкивались с необходимостью приобретения определенного...
+              </div>
+            </div>
+            <div class="blog-item">
+              <a href="#" class="blog-item__title">
+                Конструктор сайтов или сайт под заказ
+              </a>
+              <div class="blog-item__text">
+                Все больше и больше в сети появляется конструкторов сайтов, которые предлагают вам своими руками создать сайт совершенно бесплатно. Даже на белорусском рынке таких конструкторов уже можно насчитать с десяток.
+              </div>
+            </div>
+          </div>
+          <div class="ta-center">
+            <a href="" class="button button_tp button_black mp-blog__button">Напишите нам</a>
+          </div>
+        </section>
+        <footer class="main-footer container container_xs">
+          <a href="#" class="logo">
+            <img src="UISite/images/logo_footer.png" alt="Веб ВИКИ">
+          </a>
+        
+          <a href="tel:+375447331922" class="phone">+375 (44) <strong>733-19-22</strong></a>
+          <a href="tel:+375297524362" class="phone">+375 (29) <strong>752-43-62</strong></a>
+          <a href="mailto:hello@webviki.by" class="mail-link">hello@webviki.by</a>
+        </footer>
+    </div>
+    <script src="UI/Viki/js/viki.core.2.js"></script>
+    <script src="UISite/libs.min.js"></script>
+    <script src="UISite/common.js"></script>
+  </body>
+</html>
