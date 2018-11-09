@@ -3,9 +3,11 @@ html, body, main{
 }
 body {
 	font-size: 16px;
+	line-height: 1.6;
 	min-width: 320px;
 	position: relative;
 	background: url(bg2.gif);
+	color:#333;
 }
 *{
 	box-sizing: border-box;
@@ -33,4 +35,10 @@ h1{
 }
 .portfolio__header h1{
 	margin-top: 0;
+}
+.portfolio__item{
+	color:#333;
+}
+.portfolio__item:hover{
+	color:pink;
 }
