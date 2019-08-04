@@ -1,0 +1,51 @@
+<html>
+
+<!-- заголовок -->
+<head>
+  <meta charset="utf-8">
+  <title>Example</title>
+
+  <style>
+    
+    .calculator {
+      position: relative;
+      overflow: hidden;
+      display: inline-block;
+    }
+  </style>
+</head>
+
+<!-- страница -->
+<body>
+  <!-- подключаем библиотеки jQuery и jQuery UI -->
+  <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+<script src="http://code.jquery.com/ui/1.8.21/jquery-ui.min.js"></script>
+
+  <!-- библиотека перетаскивания для планшета, телефона -->
+  <script src="jquery.ui.touch-punch.min.js"></script>
+
+  <!-- HTML элементы -->
+  <div class="calculator">
+    <div class="image-block calculator__static-block">
+      <img src="1.png" class="">
+    </div>
+    <div id="myElement" data-role="dragable">
+      <img src="1.5.png" class="">
+    </div>
+    <div class="image-block calculator__static-block">
+      <img src="2.png" class="">
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script>
+  // страница открылась
+  $( function()
+  {
+  // вызываем метод draggable чтобы мог перетаскиваться myElement
+  $('[data-role="dragable"]').draggable();
+  });
+  </script>
+</body>
+
+</html>
